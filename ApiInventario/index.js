@@ -9,5 +9,5 @@ app.use(express.json());
 app.use('/', indexRouter);
 
 app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:4784`);
+  console.log(`Servidor escuchando en http://localhost:${port}`);
 });
